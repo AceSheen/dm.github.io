@@ -1,0 +1,32 @@
+$def with (movies)
+<h1>Daily Menu</h1>
+<h1>Daily Menu</h1>
+<hr>
+<img src="/static/sellout/stt.jpg">
+<hr>
+<img src="/static/sellout/zwkc.jpg">
+<hr>
+<img src="/static/sellout/zhpz01.jpg">
+<hr>
+<img src="/static/sellout/zhpz02.jpg">
+<hr>
+<img src="/static/sellout/xmf01.jpg">
+<hr>
+<img src="/static/sellout/xmf02.jpg">
+<hr>
+<img src="/static/sellout/lsw01.jpg">
+<hr>
+<img src="/static/sellout/lsw02.jpg">
+<hr>
+<img src="/static/sellout/mmdcf.jpg">
+<hr>
+<img src="/static/sellout/sxfw.jpg">
+<hr>
+<img src="/static/sellout/xbqzxc.jpg">
+<hr>
+<img src="/static/sellout/zgnrlm.jpg">
+
+$for movie in movies:
+	<li>
+	$movie['title'], $movie['quantity']
+	</li>
